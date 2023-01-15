@@ -15,10 +15,6 @@ In this work, we study the resource constrained project scheduling problem with 
 the transfer of resources between activities takes a certain amount of time. For the problem, we propose an improved serial schedule generation scheme, a new lower bound, and a tree search heuristic. To generate a schedule, the improved serial schedule generation scheme iteratively schedules an activity by breaking some existing resource flows and decides the earliest start time in an efficient way. The new lower bound is adapted from the critical capacity lower bound by additionally considering resource transfer times. The tree search heuristic utilizes the improved serial schedule generation scheme to schedule an activity at its earliest start time and the new lower bound to prune unpromising nodes in the search tree. Several priority rules are introduced in the heuristic for the selection of the next activity during branching and also used in a greedy algorithm to compute an upper bound for node evaluation. Computational experiments on benchmark instances show that the improved serial schedule generation scheme reduces the computational time by 91.30% on average compared to an existing serial schedule generation scheme from literature, the new lower bound dominates the known adapted critical path lower bound and achieves an average improvement of 7.95%, and the tree search heuristic performs better than three
 existing algorithms for the problem.
 
-## Algorithm
-
-Please contact the authors
-
 ## Instances
 
 We used the instances proposed by Poppenborg & Knust (2016), which is available at http://www2.informatik.uni-osnabrueck.de/kombopt/data/rcpsp/ for downloading.
